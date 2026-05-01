@@ -1,5 +1,6 @@
 package entidade;
 
+import java.util.List;
 import java.util.ArrayList;
 
 public class EdicaoEnem {
@@ -63,5 +64,9 @@ public class EdicaoEnem {
 				return candidato;
 		}
 		return null;
+	}
+	
+	public List<Candidato> exportarCandidatos(){
+		return this.candidatos;
 	}
 }
